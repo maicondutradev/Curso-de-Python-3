@@ -1,11 +1,11 @@
 try:
-    hora = float(input('Digite a horário: '))
+    hora = int(input('Digite o horário em números inteiros: '))
 
     if hora >= 0 and hora <= 11:
-        print(f'Bom dia {hora}')
+        print('Bom dia')
     elif hora >= 12 and hora <= 17:
-        print(f'Boa tarde {hora}')
+        print('Boa tarde')
     elif hora >= 18 and hora <= 23:
-        print(f'Boa noite {hora}')
+        print('Boa noite')
 except:
     print('Você não digitou um horário válido!')
